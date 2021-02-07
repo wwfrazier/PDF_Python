@@ -14,10 +14,15 @@ def key_search():
     filename = filedialog.askopenfilename(parent=root, title='Choose File Path')  # Credit: https://stackoverflow.com/questions/3643418/storing-file-path-using-windows-explorer-browser-in-python
     with open(filename, mode='rb') as f: #rb = read only binary, 'f' is a custom file object. Credit: https://www.soudegesu.com/en/post/python/extract-text-from-pdf-with-pypdf2/
         reader = PyPDF2.PdfFileReader(f)
+        results = []
         for page in reader.pages:
-            return(page.extractText())
+            results.append(page.extractText())
+        return results
 
-print(key_search())
+pages = key_search()
+for page in pages:
+    print(page)
+
 
 
 
