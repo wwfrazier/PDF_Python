@@ -4,13 +4,20 @@
 
 import PyPDF2
 import tkinter
+import gspread
+import pandas as pd
 
+from oauth2client.service_account import ServiceAccountCredentials
 from tkinter import filedialog
 
 root = tkinter.Tk()
 root.withdraw()
 
-test_sheet = 'C:\Users\wwfra\Desktop\Frazier_Python_Test.csv'
+scope = ['https://docs.google.com/spreadsheets/d/1YzzZEAmM5pPf7gH0cbPCTmJ2wA0ehSpiyDyWybDQORc/edit#gid=828507751']
+creds = ServiceAccountCredentials.from_json_keyfile_name(r'C:\Users\WFrazierIII\PycharmProjects\PDF Python\Python PDF Reader-50d7c6168781.json')
+client = gspread.authorize(creds)
+sheet = client.open('Frazier_Python_Test')
+sheet_instance = sheet.get_worksheet(0)
 
 def key_search():
     filename = filedialog.askopenfilename(parent=root, title='Choose File Path')  # Credit: https://stackoverflow.com/questions/3643418/storing-file-path-using-windows-explorer-browser-in-python

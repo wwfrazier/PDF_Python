@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "python-pdf-reader",
+  "private_key_id": "50d7c6168781e1fff6bb3ed3906d5c5625156641",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChLHN7i2FcXeQ4\naHgFosvao5qCNGA0ZJKV84oVRPkOf4XUMq6RWx5y3hqAX7fVjAkrvMwSdCrJfy9W\nsmk0F+yJssNH9p0JXa8+YsLq0yI0KQrKayk8W152gil3qcUS0BT9JwPPq2FD4RT2\nNSc4Dtju76wHi6Pk4GfBvY3Iwku9JLAMTSaKQW+3WjZsaBxrZvOMbMpTTww+YUv/\nccdnTd8axfx5fl+L+I3kuCqQSVpOfE4ivJCEuH5Zkxqzs/Pw83nRIcCwdtxJH5Fd\n5Qi74HA4Y6c6FTmaGzkoqZiIBTHfj2afv6BQtcwnDNbD6tfCxBFDc4Lo2yig8Kx5\nHG/2Fvb/AgMBAAECggEAJ5E7FJRmJX/jXDnBZVjPBPDvKJHlIFekaO2t84TIQ9fo\nqex7ULH26qo+BU/6WJGVWshxrQIZ0vfHTlhkXWaWKkPZjxwq9zapo/4o7e9BUV7W\nCFWAfRHNQfi4Z2klOXYeAPwIAn6HVVu3gq4P38I9XYM3T27noHO65SQ835FbeKZa\nWa+7WNU+gZzxdqrl9o4kW2qicOYPuRSAwmMnALqYCPiI2hpYGsTvVakej9T5otJ+\nsSc9T8KXV4z40HYmodHS4cgjyAnuFf75Mq3E1pipWnB3lbYOk3IbWn8YiPS6ZbN5\n0aYkAczHJky9XprKGlTLRedlkQcDeHjsrVv9uSo/AQKBgQDLrvY90trrU5X/mPHv\nX2L7Goth1yLPHo7o1U7rUrRRuZ6oBNqRFZS8tEtDGR1qvGr4LesD9NeV9Se6eAKh\nHIemtkgLokBPmsKqoPIcxCDtp5YKlerU7fjGemCQS7R0PpC7184aXoFPSxHExXtw\nGWxRPVtRfDSAe+qr7EVtDHf0gQKBgQDKkkqoG1TFOzeB80t1oMEkw++qx5366hG3\nuFKalzUvsxa4m7s1gOQP5x0rCtqCX4vxCQsLugeWRVLJbt1VT/uKvuXGbZNDiYLM\nphWqCmeBHbfcSM64+rn5707zZAa7E4MGy5Jo6JkQqPA9ZRwIimmX2iLk3hMmPEee\nZ09ZQwMrfwKBgGh5xjTQAxrSNQ52FSMDenHym6wD/gbfVc54G5L5SSTiYU8tri7d\nMv3YPQKdz0kAfJ3wb6wH2s1AgrBS/oZFbA9HUI0nHHW4nEGJbKb0sy8z1vJ3E41E\nw2aLPxzEuDsoHHU9rKo573oMt4CHC1nksHq7Tivt2cBNz4GAH9xfmOgBAoGAAQRU\n/Z0NguP2Nl/LTC7faVjWdiwEXgMYzaxONdp2eOPURF77xJv+CRpm6hVm3WqvYClk\ndc2cRiPY84vr7oa1Q5ALxUA9kgQ5tN9Mkor01BAbIS74YrNXhaqu4cfpxLynVrxk\n4sPwKMZAVn6QcnaHayy8Khv3SqTY0zG/kzoj5O8CgYB5SXHA0BBdOk0mPHlBchTz\nFGAEsj8+Z9VBbvAbjrr2i8jncB2vfTUxohnRK9iymxhtt6PyFgW9uRg62y6oIyRy\nw6XohupWolZ697gZax9Gt9lksEFTmDoCQpyhPU0iIpsHg5NocrkCYq6qAR514u4s\n3sjUlP4Fp+RNMPpyi3vl6A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "python-pdf-service-account@python-pdf-reader.iam.gserviceaccount.com",
+  "client_id": "102810393784835347595",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-pdf-service-account%40python-pdf-reader.iam.gserviceaccount.com"
+}
